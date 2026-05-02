@@ -5,9 +5,11 @@ app/temp_storage/
 *.dcm
 *.npy
 
-data/raw/
-data/processed/
-data/sample/
+data/
+*.zip
+*.7z
+*.dcm
+*.npy
 
 # --- Models ---
 models/weights/*.pt
