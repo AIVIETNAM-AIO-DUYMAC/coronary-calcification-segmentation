@@ -7,7 +7,7 @@ app/temp_storage/
 
 data/raw/
 data/processed/
-data/ground_truth/
+data/sample/
 
 # --- Models ---
 models/weights/*.pt
