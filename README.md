@@ -20,8 +20,8 @@ CAC-Scoring-Project/
 └── README.md            # Project documentation
 
 ## 📊 Data Output Details
-The pipeline generates two subdirectories within the output folder:
-- `images/`: Input tensors with shape `(K, 3, 512, 512)`
-- `masks/`: Binary masks with shape `(K, 1, 512, 512)`
+The pipeline organizes processed data into the following structure:
+- `images/`: Input tensors (2.5D NumPy arrays).
+- `masks/`: Binary masks for calcium segmentation.
 
-> 🔗 **Access Processed Dataset:** [Click here to download processed .npy files from Google Drive](https://drive.google.com/drive/folders/18Ka7Q3hTVjM2Zf0BZsQCM8fnXsPz982x?usp=sharing)
+> 🔗 **Access Processed Dataset:** [Click here to download processed data from Google Drive](https://drive.google.com/drive/folders/18Ka7Q3hTVjM2Zf0BZsQCM8fnXsPz982x?usp=sharing)
