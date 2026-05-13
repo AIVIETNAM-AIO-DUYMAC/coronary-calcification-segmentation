@@ -24,4 +24,4 @@ The pipeline generates two subdirectories within the output folder:
 - `images/`: Input tensors with shape `(K, 3, 512, 512)`
 - `masks/`: Binary masks with shape `(K, 1, 512, 512)`
 
-> 🔗 **Access Processed Dataset:** [Click here to download processed .npy files from Google Drive] (https://drive.google.com/drive/folders/18Ka7Q3hTVjM2Zf0BZsQCM8fnXsPz982x?usp=sharing)
+> 🔗 **Access Processed Dataset:** [Click here to download processed .npy files from Google Drive](https://drive.google.com/drive/folders/18Ka7Q3hTVjM2Zf0BZsQCM8fnXsPz982x?usp=sharing)
