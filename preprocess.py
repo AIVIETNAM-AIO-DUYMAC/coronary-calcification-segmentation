@@ -26,8 +26,9 @@ def main():
         print(f"\n--- Processing Batch {i//BATCH_SIZE + 1} ({len(current_batch)} patients) ---")
 
         for patient_id in current_batch:
-            # Check if files already exist to support resuming
-            out_x = os.path.join(OUTPUT_DIR, f"{patient_id}_X.npy")
+            # Update paths to check inside subdirectories for resuming
+            out_x = os.path.join(DIR_IMAGES, f"{patient_id}_X.npy")
+            out_y = os.path.join(DIR_MASKS, f"{patient_id}_Y.npy")
             xml_path = os.path.join(ROOT_XML, f"{patient_id}.xml")
             
             if os.path.exists(out_x):
